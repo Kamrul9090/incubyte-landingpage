@@ -1,0 +1,42 @@
+.bg-success {
+    background: url(../../assets/images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 240px;
+    width: 100%;
+}
+
+.bg-success img {
+    position: absolute;
+    left: 30%;
+}
+
+.bg-success-body {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.bg-success-body h1 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width :560px) {
+    .bg-success img {
+        left: 0%;
+        width: 350px;
+    }
+
+    .bg-success-body {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .bg-success-body h1 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+}

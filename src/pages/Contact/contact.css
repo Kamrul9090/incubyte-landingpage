@@ -1,0 +1,35 @@
+.bg-contact {
+    background: url(../../assets/images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-body {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.contact-body h1 {
+    font-size: 40px;
+}
+
+.btn {
+    background-color: rgb(31, 31, 171);
+    border: none;
+    color: #FFF;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 560px) {
+    .contact-body {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .contact-body h1 {
+        font-size: 30px;
+    }
+}

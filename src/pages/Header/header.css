@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+header h1 {
+    color: #4b84bc;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+}
+
+.list-item {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.text-color {
+    color: #4b84bc;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #4b84bc;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 560px) {
+
+    header {
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .list-item {
+        list-style: none;
+        padding-left: 12px;
+        font-size: x-small;
+    }
+
+}

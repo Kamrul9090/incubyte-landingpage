@@ -1,0 +1,27 @@
+.bg-about {
+    background-color: rgba(16, 84, 219, 0.826);
+    color: #fff;
+    padding: 30px 100px;
+}
+
+.bg-about h1 {
+    font-size: 50px;
+}
+
+.bg-about p {
+    font-size: 20px;
+}
+
+@media screen and (max-width : 560px) {
+    .bg-about {
+        padding: 10px;
+    }
+
+    .bg-about h1 {
+        font-size: 30px;
+    }
+
+    .bg-about p {
+        font-size: 12px;
+    }
+}

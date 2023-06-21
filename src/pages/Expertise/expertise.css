@@ -1,0 +1,43 @@
+.expert-header {
+    text-align: center;
+    color: rgba(16, 84, 219, 0.826);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.singleCard {
+    width: 400px;
+    background-color: #60aeba;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    box-shadow: 1px 1px 4px black;
+}
+
+.singleCard h2 {
+    text-align: center;
+}
+
+.singleCard p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 560px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .singleCard {
+        width: 350px;
+        background-color: #60aeba;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid #FFF;
+        box-shadow: 1px 1px 4px black;
+    }
+}
